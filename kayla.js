@@ -1951,28 +1951,28 @@ const seactiones = [
 {
 title: `LIST SEWABOT`,
 rows: [
-{title: `1 MINGGU`, rowId: `${prefix}sewabot 1minggu`},
-{title: `1 BULAN`, rowId: `${prefix}sewabot 1bulan`},
-{title: `1 TAHUN`, rowId: `${prefix}sewabot 1tahun`},
-{title: `PERMANENT`, rowId: `${prefix}sewabot permanent`},
+{title: `1 MINGGU`, rowId: `${prefix}sewakey 1minggu`},
+{title: `1 BULAN`, rowId: `${prefix}sewakey 1bulan`},
+{title: `1 TAHUN`, rowId: `${prefix}sewakey 1tahun`},
+{title: `PERMANENT`, rowId: `${prefix}sewakey permanent`},
 ]
 },
 {
 title: `LIST PREMIUM`,
 rows: [
-{title: `1 MINGGU`, rowId: `${prefix}premuser 1minggu`},
-{title: `1 BULAN`, rowId: `${prefix}premuser 1bulan`},
-{title: `1 TAHUN`, rowId: `${prefix}premuser 1tahun`},
-{title: `PERMANENT`, rowId: `${prefix}premuser permanent`},
+{title: `1 MINGGU`, rowId: `${prefix}premkey 1minggu`},
+{title: `1 BULAN`, rowId: `${prefix}premkey 1bulan`},
+{title: `1 TAHUN`, rowId: `${prefix}premkey 1tahun`},
+{title: `PERMANENT`, rowId: `${prefix}premkey permanent`},
 ]
 },
 {
 title: `LIST JADI OWNER`,
 rows: [
-{title: `1 MINGGU`, rowId: `${prefix}owner 1minggu`},
-{title: `1 BULAN`, rowId: `${prefix}owner 1bulan`},
-{title: `1 TAHUN`, rowId: `${prefix}owner 1tahun`},
-{title: `PERMANENT`, rowId: `${prefix}owner permanent`},
+{title: `1 MINGGU`, rowId: `${prefix}ownkey 1minggu`},
+{title: `1 BULAN`, rowId: `${prefix}ownkey 1bulan`},
+{title: `1 TAHUN`, rowId: `${prefix}ownkey 1tahun`},
+{title: `PERMANENT`, rowId: `${prefix}ownkey permanent`},
 ]
 }
 ]
