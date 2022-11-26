@@ -15,7 +15,7 @@ const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep, reSize } = require('./lib/myfunc')
 
 const owner = JSON.parse(fs.readFileSync('./database/owner.json'))
-
+global.api = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({ ...query, ...(apikeyqueryname ? { [apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name] } : {}) })) : '')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 require('./kayla.js')
@@ -28,7 +28,7 @@ const { version, isLatest } = await fetchLatestBaileysVersion()
 const kayla = kaylaConnect({
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Kayla Bot WhatsApp (2022)','Safari','1.0.0'],
+browser: ['Secret Bot WhatsApp (2022)','Safari','1.0.0'],
 auth: state,
 version
 })
